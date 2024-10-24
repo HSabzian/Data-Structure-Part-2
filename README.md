@@ -32,15 +32,21 @@ In our implementation, a LinkedList is used to maintain the queue, which allows 
 A HashMap is a key-value pair-based data structure. It uses a hashing mechanism to store and retrieve elements in constant time on average. It allows null keys and values and does not maintain any order of the elements.
 
 Key Features:
+
 Fast lookups, insertions, and deletions due to hashing.
+
 Allows one null key and multiple null values.
+
 Not synchronized (non-thread-safe) by default, so it's not suitable for multi-threaded environments without external synchronization.
 
 # 4. Hashtable
 A Hashtable is also a key-value pair-based data structure similar to a HashMap, but with some key differences. It was one of the original Java collections and is synchronized, meaning it is thread-safe but slower than HashMap. It does not allow null keys or values.
 
 Key Features:
+
 Synchronized (thread-safe) by default.
+
 Does not allow null keys or values.
+
 Slightly slower compared to HashMap due to synchronization overhead.
 
