@@ -2,18 +2,26 @@
 A Stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle. The last element added to the stack is the first one to be removed. You can think of it as a stack of plates: you add plates to the top, and you remove the topmost plate first.
 
 Key Operations:
-push: Adds an element to the top of the stack.
-pop: Removes the top element from the stack.
-peek: Returns the top element without removing it.
+
+## push: Adds an element to the top of the stack.
+
+## pop: Removes the top element from the stack.
+
+## peek: Returns the top element without removing it.
+
 In your implementation, you used a LinkedList for the stack, which makes operations efficient as LinkedList allows fast insertion and deletion at both ends.
 
 # 2. Queue (Implemented using LinkedList)
 A Queue is a linear data structure that follows the First-In, First-Out (FIFO) principle. The first element added to the queue is the first one to be removed. It’s similar to a line at a store where the first person in line is served first.
 
 Key Operations:
-enqueue: Adds an element to the end of the queue.
-dequeue: Removes the element from the front of the queue.
-peek: Returns the front element without removing it.
+
+## enqueue: Adds an element to the end of the queue. 
+
+## dequeue: Removes the element from the front of the queue.
+
+## peek: Returns the front element without removing it.
+
 In your implementation, a LinkedList is used to maintain the queue, which allows efficient insertion and deletion at both the front and rear ends.
 
 # 3. HashMap
