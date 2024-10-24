@@ -3,11 +3,11 @@ A Stack is a linear data structure that follows the Last-In, First-Out (LIFO) pr
 
 Key Operations:
 
-## push: Adds an element to the top of the stack.
+ push: Adds an element to the top of the stack.
 
-## pop: Removes the top element from the stack.
+pop: Removes the top element from the stack.
 
-## peek: Returns the top element without removing it.
+peek: Returns the top element without removing it.
 
 In your implementation, you used a LinkedList for the stack, which makes operations efficient as LinkedList allows fast insertion and deletion at both ends.
 
